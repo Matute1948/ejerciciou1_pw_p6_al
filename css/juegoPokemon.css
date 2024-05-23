@@ -1,0 +1,57 @@
+.Container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+body{
+    background: rgb(218, 75, 75);
+}
+
+p{
+    mask-type: unset;
+}
+
+.Juego{
+    background: rgb(111, 157, 209);
+    width: 600px;
+    height: auto;
+}
+
+.Opciones{
+    display: grid;
+    grid-template-columns: 290px;
+    grid-template-rows: repeat(4, 50px);
+    margin: 20px 150px;
+}
+
+.Pokemon{
+    border: 3px solid yellow;
+    width: 280px;
+    height: auto;
+    margin: 20px 150px;
+    
+}
+
+.Punt_int{
+    border: 3px dashed mediumorchid;
+    width: 380px;
+    height: auto;
+    margin: 20px 100px;
+    border-radius: 5px;
+
+}
+
+h3{
+    text-align: center;
+}
+
+.Boton{
+    margin: 10px;
+    border-radius: 5px;
+
+}
+
+
+

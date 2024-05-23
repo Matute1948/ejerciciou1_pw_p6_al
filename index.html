@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio Andres</title>
+    <link rel="stylesheet" href="/css/juegoPokemon.css">
+    <script src="/js/logicaJuegoPokemon.js"></script>
+</head>
+
+<body>
+    <div class="Container">
+        <div class="Juego">
+            <header>
+                <h1>Juego Pokémon</h1>
+            </header>
+            <nav></nav>
+            <section>
+                <div class="Punt_int">
+                    <h3>Puntaje: </h3>
+                    <div id="puntaje" class="score"><p>0</p></div>
+                    <h3>Intentos: </h3>
+                    <div id="intentos" class="score"><p>0</p></div>
+                    <h3>Selecciona el nombre pokémon correcto</h3>
+                </div>
+                <div class="Pokemon" id="imagen">
+                    <img src="/img/pnegro.jpg" alt="Error al cargar imagen">
+                </div>
+                <div class="Opciones">
+                    <button class="Boton" onclick="elegir_opcion('keldeo-ordinary')">keldeo-ordinary</button>
+                    <button class="Boton" onclick="elegir_opcion('dribur')">dribur</button>
+                    <button class="Boton" onclick="elegir_opcion('ninjask')">ninjask</button>
+                    <button class="Boton" onclick="elegir_opcion('excadrill')">excadrill</button>
+                </div>
+                <div id="resultado"></div>
+            </section>
+            <footer></footer>
+        </div>
+    </div>
+</body>
+
+</html>
